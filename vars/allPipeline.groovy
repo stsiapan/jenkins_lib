@@ -1,4 +1,4 @@
-def call() {
+def call(something) {
 // def call(body) {
 //  def pipelineParams= [:]
 //  body.resolveStrategy = Closure.DELEGATE_FIRST
