@@ -2,7 +2,7 @@ def call(body) {
 //  def pipelineParams= [:]
 //  body.resolveStrategy = Closure.DELEGATE_FIRST
 //  body.delegate = pipelineParams
-//  body()
+body()
 
 pipeline {
   agent any
